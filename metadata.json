@@ -1,0 +1,6 @@
+{
+  "name": "TalentPulse HRIS",
+  "description": "Multilingual Personnel Information Management System with BoekhoudGemak & Kopilot Project integration, employee profiles, leave tracking, and payroll readiness.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
