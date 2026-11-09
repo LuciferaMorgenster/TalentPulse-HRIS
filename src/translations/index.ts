@@ -124,6 +124,9 @@ export interface Translations {
   supportAmounts: string;
   supportClose: string;
   supportNote: string;
+  installApp: string;
+  installAppIOS: string;
+  offlineBanner: string;
 }
 
 export const translations: Record<Language, Translations> = {
@@ -251,6 +254,9 @@ export const translations: Record<Language, Translations> = {
     supportAmounts: 'Suggested amounts',
     supportClose: 'Close',
     supportNote: 'Contributions are processed securely via PayPal. Thank you for supporting independent software!',
+    installApp: 'Install App',
+    installAppIOS: 'Install on iOS',
+    offlineBanner: 'Offline Mode — Local data cache is active.',
   },
   nl: {
     appName: 'TalentPulse',
@@ -376,6 +382,9 @@ export const translations: Record<Language, Translations> = {
     supportAmounts: 'Kies een bedrag',
     supportClose: 'Sluiten',
     supportNote: 'Donaties verlopen veilig via PayPal. Hartelijk dank voor je steun!',
+    installApp: 'App Installeren',
+    installAppIOS: 'Installeren op iOS',
+    offlineBanner: 'Offlinemodus — Lokale gegevenscache is actief.',
   },
   de: {
     appName: 'TalentPulse',
@@ -501,6 +510,9 @@ export const translations: Record<Language, Translations> = {
     supportAmounts: 'Vorschläge',
     supportClose: 'Schließen',
     supportNote: 'Sichere Abwicklung über PayPal. Vielen Dank für Ihren Support!',
+    installApp: 'App Installieren',
+    installAppIOS: 'Auf iOS Installieren',
+    offlineBanner: 'Offline-Modus — Lokaler Datencache ist aktiv.',
   },
   fr: {
     appName: 'TalentPulse',
@@ -626,6 +638,9 @@ export const translations: Record<Language, Translations> = {
     supportAmounts: 'Montants suggérés',
     supportClose: 'Fermer',
     supportNote: 'Paiement sécurisé via PayPal. Merci pour votre soutien !',
+    installApp: 'Installer l’App',
+    installAppIOS: 'Installer sur iOS',
+    offlineBanner: 'Mode Hors Ligne — Le cache local est actif.',
   },
   es: {
     appName: 'TalentPulse',
@@ -751,5 +766,8 @@ export const translations: Record<Language, Translations> = {
     supportAmounts: 'Cantidades sugeridas',
     supportClose: 'Cerrar',
     supportNote: 'Donación gestionada de forma segura a través de PayPal. ¡Muchas gracias por su apoyo!',
+    installApp: 'Instalar App',
+    installAppIOS: 'Instalar en iOS',
+    offlineBanner: 'Modo Sin Conexión — La caché local está activa.',
   },
 };
