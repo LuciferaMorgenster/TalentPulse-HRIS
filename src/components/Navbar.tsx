@@ -3,6 +3,7 @@ import { Plus, Globe, Moon, Sun, Heart } from 'lucide-react';
 import { Language } from '../types';
 import { Translations } from '../translations';
 import { EcosystemSwitcher } from './EcosystemSwitcher';
+import { PWAInstallButton } from './PWAInstallButton';
 
 interface NavbarProps {
   currentTab: string;
@@ -130,6 +131,9 @@ export const Navbar: React.FC<NavbarProps> = ({
             >
               {darkMode ? <Sun className="w-4 h-4 text-amber-400" /> : <Moon className="w-4 h-4" />}
             </button>
+
+            {/* PWA Install Button */}
+            <PWAInstallButton t={t} />
 
             {/* Support / Sponsor Button (PayPal) */}
             <button

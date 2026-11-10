@@ -13,8 +13,8 @@ export const OfflineIndicator: React.FC<OfflineIndicatorProps> = ({ t }) => {
   if (isOnline) return null;
 
   return (
-    <div className="fixed bottom-4 left-4 z-50 flex items-center gap-2.5 rounded-xl bg-slate-900 text-white dark:bg-white dark:text-slate-900 px-3.5 py-2 text-xs font-semibold shadow-xl border border-slate-700/60 dark:border-slate-200 animate-in slide-in-from-bottom-2">
-      <WifiOff className="w-4 h-4 text-amber-400 dark:text-amber-600 shrink-0" />
+    <div className="fixed bottom-4 left-4 z-50 flex items-center gap-2 rounded-xl bg-amber-500 text-white px-3.5 py-2 text-xs font-semibold shadow-xl border border-amber-600 animate-in slide-in-from-bottom-2">
+      <WifiOff className="w-4 h-4 animate-pulse" />
       <span>{t.offlineBanner}</span>
     </div>
   );

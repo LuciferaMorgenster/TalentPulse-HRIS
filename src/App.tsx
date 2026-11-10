@@ -9,6 +9,7 @@ import { ContractsView } from './components/ContractsView';
 import { IntegrationsView } from './components/IntegrationsView';
 import { OrgChartView } from './components/OrgChartView';
 import { SupportModal } from './components/SupportModal';
+import { OfflineIndicator } from './components/OfflineIndicator';
 import { Employee, LeaveRequest, SyncLog, Language } from './types';
 import { translations } from './translations';
 import { INITIAL_EMPLOYEES, INITIAL_LEAVE_REQUESTS, INITIAL_SYNC_LOGS } from './data/seedData';
@@ -462,6 +463,9 @@ export default function App() {
         onClose={() => setIsSupportModalOpen(false)}
         t={t}
       />
+
+      {/* PWA Offline Connectivity Indicator */}
+      <OfflineIndicator t={t} />
 
       {/* Footer */}
       <footer className="border-t border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 py-6 text-xs text-slate-500 dark:text-slate-400">
